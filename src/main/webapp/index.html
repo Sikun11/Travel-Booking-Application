@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- swiper link used -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <title>Explore Bhadrak</title>
+</head>
+
+<body>
+  <!-- Header and Nav -->
+  <header>
+    <nav>
+      <div class="main">
+
+        <ul class="main-list">
+          <li class="active main-list-item"><a href="index.html">Home</a></li>
+          <li class="main-list-item"><a href="discover.html">Discover</a></li>
+          <li class="main-list-item"><a href="contact.html">Contact</a></li>
+          <li class="main-list-item"><a href="about.html">About</a></li>
+          <li class="main-list-item btn btn-warning btn-outline-light"><a href="plan.html">Plan a tour</a></li>
+          <li class="main-list-item btn btn-warning btn-outline-light"><a href="login.html"><i class="bi bi-person-circle"></i> User</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+    <!-- // Header and Nav -->
+
+    <!-- Title heading -->
+    <style>
+      .title {
+        text-align: center;
+      }
+
+      .heading {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: transparent;
+        /* Initial background color */
+        color: white;
+        /* Initial text color */
+        border: 1px solid #95af4c;
+        /* Green border */
+        border-radius: 5px;
+        /* Rounded corners */
+        cursor: pointer;
+        /* Change cursor on hover */
+        transition: background-color 0.3s, color 0.3s;
+        /* Smooth transition effect */
+      }
+
+      .heading:hover {
+        background-color: rgba(243, 243, 243, 0.25);
+        /* Transparent background on hover */
+        color: #98af4c;
+        /* Green text color on hover */
+      }
+    </style>
+    <div class="title">
+      <a href="#home_page"><span class="heading">Welcome To Bhadrak</span></a>
+      <br>
+            <a class="bi bi-chevron-double-down" style="font-size: 2rem; color: white;" href="#home_page"></a>
+    </div>
+    
+  </header>
+  <!-- // Title heading -->
+
+  <div class="fluid-container p-5" id="home_page">
+    <div class="nine">
+      <h1 style="word-spacing: 1rem;">Welcome  Bhadrak<span> Bhadrak welcomes you with open arms</span></h1>
+    </div>
+    <div class="row">
+
+      <div class="col-3 shadow p-2 mb-5 bg-body-tertiary rounded" style="margin-left: 6rem;">
+        <div class="card text-center"
+          style="background-image: linear-gradient( 70.5deg,  rgba(0,81,80,1) 23.5%, rgb(0, 153, 150) 91.3% );">
+          <div class="card-body" style="padding: 3.5rem;">
+            <img src="./images/culture.png" class="pt-2" style="width: 5rem; " alt="">
+            <h5 class="card-title p-3" style="color: rgb(227, 233, 239);">Cultural District</h5>
+            <p class="card-text"> Unveiling the Cultural Wonders of Our Vibrant District</p>
+            <a href="about.html" class="btn btn-4">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 shadow p-2 mb-5 bg-body-tertiary rounded" style="margin-left: 6rem;">
+        <div class="card text-center"
+          style="background-image: linear-gradient( 70.5deg,  rgba(0,81,80,1) 23.5%, rgb(0, 153, 150) 91.3% );">
+          <div class="card-body" style="padding: 3.5rem;">
+            <img src="./images/clean.png" class="pt-2" style="width: 5rem; " alt="">
+            <h5 class="card-title p-3" style="color: rgb(227, 233, 239);">Cleanest District</h5>
+            <p class="card-text"> Discovering the Tranquil Beauty of Our Pristine District</p>
+            <a href="about.html" class=" btn btn-4">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 shadow p-2 mb-5 bg-body-tertiary rounded" style="margin-left: 6rem;">
+        <div class="card text-center"
+          style="background-image: linear-gradient( 70.5deg,  rgba(0,81,80,1) 23.5%, rgb(0, 153, 150) 91.3% );">
+          <div class="card-body" style="padding: 3.5rem;">
+            <img src="./images/green.png" class="p-2" style="width: 5rem; " alt="">
+            <h5 class="card-title p-3" style="color: rgb(227, 233, 239);">Green District</h5>
+            <p class="card-text">Exploring the Eco-Friendly Charms of Our Cultural District</p>
+            <a href="about.html" class="btn btn-4">Explore</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- tour section -->
+
+
+<div class="container-fluid map-container">
+  <div class="nine pb-4">
+    <h1 style="word-spacing: 1rem;">Tourist Attraction<span>Stepping into Bhadrak, where traditions blend with modern vibes</span></h1>
+  </div>
+  <div class="row map">
+    <img src="./images/tour.png" alt="">
+
+    <!-- pin loc -->
+    <div class="pin pin-1">
+      <span><a href="https://maps.app.goo.gl/Ac1iTW74Gi53XHX47">Iskon Temple</a></span>
+    </div>
+    <div class="pin pin-2">
+      <span><a href="https://maps.app.goo.gl/nXCijaHPLzFgePPbA">Maa Bhadrakali Temple</a></span>
+    </div>
+    <div class="pin pin-3">
+      <span><a href="https://maps.app.goo.gl/K5bpbaQLy5dLHQu99">Baba Akhandalamani temple</a></span>
+    </div>
+    <div class="pin pin-4">
+      <span><a href="https://maps.app.goo.gl/QcmWUXm53PuA8rjX8">Dhamara Port</a></span>
+    </div>
+    <div class="pin pin-5">
+      <span><a href="https://maps.app.goo.gl/z3Rpa7tou3XCdUUh8">Dhamara Temple</a></span>
+    </div>
+    <div class="pin pin-6">
+      <span><a href="https://maps.app.goo.gl/LsfX8BRHEHGufQHV6">Bankabasuli Temple</a></span>
+    </div>
+    <div class="pin pin-7">
+      <span><a href="https://maps.app.goo.gl/HLBoZtNQFbevVqox6">Maa Patana-mangala Temple</a></span>
+    </div>
+    <div class="pin pin-8">
+      <span><a href="https://maps.app.goo.gl/ANQHQgzya6Gnp22r5">Mujahid-e-Millat</a></span>
+    </div>
+    <div class="pin pin-10">
+      <span><a href="https://maps.app.goo.gl/fPmGsuoAEBdzFqbm7">Satasang vihar</a></span>
+    </div>
+    <div class="pin pin-11">
+      <span><a href="https://maps.app.goo.gl/MMAE8Wknetio264X9">Baliapal ghata</a></span>
+    </div>
+  </div>
+</div>
+
+  <!-- about section -->
+  <div class="about" id="about">
+    <div class="img-container">
+
+      <img src="./images/love_bhadrak.png" alt="">
+
+    </div>
+    <div class="about-container">
+      <h1>Why Bhadrak BEAUTIFUL ?</h1>
+      <p> Bhadrak city is strategically located in the eastern part of the Indian state of Odisha. It lies on the banks
+        of the River Salandi and serves as a gateway to the northern districts of Odisha.</p>
+      <p> Bhadrak is known for its rich history, beautiful
+        architecture, and vibrant culture. Some of the reasons that make Bhadrak more attractive include its stunning
+        temples, picturesque landscapes, delicious cuisine, and friendly locals. Additionally, Bhadrak boasts a thriving
+        tourism industry, with many visitors coming to explore its historical and cultural sites. Overall, the city's
+        many charms make it a popular destination for travelers.</p>
+    </div>
+  </div>
+
+  <!-- news section -->
+  <div class="news-container">
+    <div class="news-row">
+      <div class="news-col">
+        <video src="./images/welcome.mp4" controls muted autoplay></video>
+      </div>
+      <div class="article-col">
+        <h1>A <span>Single</span> Step<br> towards <span>
+            Explore</span><br><span> Our</span> Bhadrak</h1>
+        <p>The district has its administrative center at Bhadrak, which is also known as Dikbali in Oriya. Dikbali is
+          known for its mix of Indo-Aryan and Oriya cultures. Bhadrak is home to many historic sites, including the
+          Jaina Digambara Tirthankara temple and the
+          Radhanagar Temple. The city is also known for its traditional handicrafts, such as weaving and woodcarving.
+        </p>
+        <div class="explore-button">
+          <a href="discover.html"><button>EXPLORE</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!--famous section -->
+  <div class="famous pt-5 pb-5">
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="4"
+      space-between="30" centered-slides="true" loop="true"
+      data-swiper-autoplay="2000">
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-1 (1).jpeg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Iskon Temple</h2>
+              <p>
+                Iskon(International Society for Krishna Consciousness) is a global spiritual
+                movement with roots in India. One of its most important temples is the ISKCON
+                complex in Bhadrak, India.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-2.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Bhadrakali Temple</h2>
+              <p>
+                One of the famous temple of Goddess Bhadrakali is located in the outskirts of the revenue
+                                    village Aharapada which is at a distance of 5 kms away from Bhadrak town in the
+                                    south- west.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-3.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Akhandalamani temple</h2>
+              <p>
+                This Temple is dedicated to Lord Shiva.As the history runs, king Niladri Samara Singha Mohapatra started worshipping the God Akhandalamani some 350 years ago
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-4.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Dhamara Port</h2>
+              <p>
+                The Dhamra Port Company Limited (DPCL) is a 50:50 joint venture between L&T and TATA Steel. DPCL has been entrusted, by way of a concession granted by Government of Orissa.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-5.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Maa Ptana Mangala</h2>
+              <p>
+                Maa Patana Mangala Temple is famous temple in Bhadrak. Best Tourist Place in Bhadrak, Best Attractive Maa Patana Mangala Temple and Biggest pond in Bhadrak.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-6.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Dhamara Temple</h2>
+              <p>
+                Dhamara Temple Bhadrak is a famous Buddhist temple located in the village of Dhamara, Bhadrak district,Odisha. It is known for the ancient Jain symbols carved on its walls
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-7.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Satasang bihar</h2>
+              <p>
+                Satsang Vihar is a meditation center providing courses on meditation and spiritual development. Founded in 2016, it aims to promote inner peace and harmony amongst individuals.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-8.jpeg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Raktatirtha Eram</h2>
+              <p>
+                Eram Bhadrak is an ancient Vedic site located in Okhalahela.The site is a popular pilgrimage spot for Hindus and Vedic enthusiasts and is also the location of a Shiva temple.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-9.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Mujahid-e-Millat</h2>
+              <p>
+                Mujahid Millat Bhadrak is a known Islamic aptitude competition coach.Mujahid Millat Bhadrak is known for his innovative teaching methods and high-quality learning resources.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+
+
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-10.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Bankabasuli Temple</h2>
+              <p>
+                Bankabasuli Mandira is a popular temple located in Bhadrak. The temple is dedicated to Lord Shiva and is a considered to be one of the most important sites for Shiva devotees.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-11.jpeg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Baliapala Ghata</h2>
+              <p>
+                Baliapal Ghata Bhadrak is a popular tourist attraction in Odisha, attracting visitors from all over India and abroad.It known for its rich agricultural land and beautiful natural beauty
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+      <swiper-slide>
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./images/tourist/tour-12.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Chandabali Port</h2>
+              <p>
+                It is known for its beautiful beaches and stunning natural beauty, including the Chandabali Port, which offers a great view of the Bay of Bengal and the surrounding area.
+              </p>
+              <a href="discover.html" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </swiper-slide>
+      
+    </swiper-container>
+  </div>
+
+
+  <!-- footer section -->
+<div class="container-fluid pt-3 mb-5">
+  <div class="row justify-content-evenly bg-dark text-white">
+      <div class="col-md-3 pt-4 pb-1">
+        <h1><span>ଭ</span>ଦ୍ରକ</h1>
+        <p>Bhadrak is famous for its silk industry and textile manufacturing. Visitors can also order local handloom products and see how they are made. The district is easily accessible by train and road.</p>
+      </div>
+      <div class="col-md-3 pt-4">
+        <h5 style="text-decoration: underline orange;">important links</h5>
+        <p class="pt-2">
+          <a href="#home" class="link-light text-decoration-none">home</a> <br>
+          <a href="#about" class="link-light text-decoration-none">Discover</a><br>
+          <a href="#contact" class="link-light text-decoration-none">Contact</a><br>
+          <a href="#services" class="link-light text-decoration-none">About</a><br>
+          <a href="#FAQs" class="link-light text-decoration-none">Plan Tour</a>
+        </p>
+      </div>
+      <div class="col-md-3 pt-4">
+        <h5 style="text-decoration: underline orange;">contact us</h5>
+        <p class="pt-2">
+
+          Barapada Engineering College campus<br>
+          Barapada,Bhadrak <br>
+          Odisha - 756101 <br>
+          <i class="bi bi-telephone-fill"></i> :7077950795/6371917036/9692210932
+
+        </p>
+      </div>
+  </div>
+</div>
+  <!-- bottom-footer -->
+<div class="container-fluid fixed-bottom" style="background-color: rgb(131, 130, 130);">
+  <div class="row">
+    <div class="col-12">
+
+      <h6 class="text-white text-center pt-2 pb-2">copyright 2024 by <span style="color:rgb(255, 191, 0) ;"> Er. Devabrata Pradhan</span> | all rights reserved</h6>
+  
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  <!-- swiper js file link add -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+  <!-- bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

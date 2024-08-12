@@ -1,0 +1,137 @@
+ /* package section  */
+ 
+ .plan-header{
+    background: url(../images/plan-header.jpg);
+  }
+  
+  .plan-header .heading{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    color: #ffffff;
+  }
+  
+  .plan-header .heading h1{
+    letter-spacing: 1rem;
+    background: #0000005f;
+    
+  }
+  
+  .plan-header .heading h1 span{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: gold;
+    font-weight:bolder;
+  }
+  .categories{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Source Sans Pro", sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+ }
+
+  .categories .box-container{
+    display:flex;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit,minmax(26rem,1fr));
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .categories .box-container .box{
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0,.1);
+    outline: 1rem solid rgba(0,0,0,.1);
+    outline-offset: -1rem;
+    text-align: center;
+  }
+  
+  
+  .categories .box-container .box:hover{
+    outline: solid #68686830;
+    outline-offset: 0rem;
+  
+  }
+  
+  .plan {
+      background-color: #fff;
+      padding: 1rem;
+      margin: 12px;
+      border-radius: 5px;
+      text-align: center;
+      transition: 0.3s;
+      cursor: pointer;
+  
+      h2 {
+        font-size: 22px;
+        margin-bottom: 12px;
+      }
+  
+      .price {
+        margin-bottom: .6rem;
+        font-size: 30px;
+      }
+  
+      ul.features {
+        list-style-type: none;
+        text-align: left;
+        li {
+          margin: 4px;
+          .fas {
+            margin-right: 4px;
+          }
+          .fa-check-circle {
+            color: #6ab04c;
+          }
+          .fa-times-circle {
+            color: #eb4d4b;
+          }
+        }
+      }
+  
+      button {
+        border: none;
+        width: 100%;
+        padding: 12px 35px;
+        margin-top: 1rem;
+        background-color: #6ab04c;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+  
+      &.popular {
+        border: 2px solid #6ab04c;
+        position: relative;
+        transform: scale(1.08);
+  
+        span {
+          position: absolute;
+          top: -20px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: #6ab04c;
+          color: #fff;
+          padding: 4px 20px;
+          font-size: 18px;
+          border-radius: 5px;
+        }
+      }
+  
+      &:hover {
+        box-shadow: 5px 7px 67px -28px rgba(0, 0, 0, 0.37);
+      }
+    }
+  
+/** about section **/
+
+
+
+/** end about section **/
